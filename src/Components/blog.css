@@ -1,0 +1,167 @@
+
+  .blogs {
+    backgroud-color: #8BA3BC;
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+  }
+  .blog-title {
+    padding-left: 10%;
+    color: #564565;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+  }
+  .gallery {
+
+    overflow-x: auto;
+    padding: 20px;
+    height: 150px;
+    scroll-behavior: smooth;
+    display: flex;
+    gap: 20px;
+  }
+  .main-blog-image {
+    margin-bottom: 20px;
+    width: 25%;
+    padding: 0.75%;
+    border-radius: 15px;
+    background-color: greenyellow;
+  }
+
+/*.research-text {
+  position: absolute;
+  top: 35%;
+  animation: slideInFromTop 1s ease-in-out;
+  font-size: 35px;
+  color: #4b7c9c;
+display: flex;
+  left: 33%;
+  text-align: center;
+  
+
+}@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}*/
+.lin {
+  text-align: center;
+}
+.blog-pag {
+  background-image: url('./images/beautiful-forest-panoramic-realistic-wanderlust-background-landscape-dark-trees-pine-in-mist-design-mystery-fog-in-park-concept-nature-beauty-tourism-web-banner-free-vector.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+
+.Blog-image-title {
+  padding-top: 40%;
+  color: #566fb8;
+  font-size: 50px;
+}
+
+.blog-buttons {
+  padding-top: 20%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+
+}
+.blog-button  button{
+  border-radius: 5px;
+  border : none;
+  padding: 5%;
+  color: #115f11;
+  box-shadow: 0 2px 4px rgba(20, 55, 30, 0.8);
+}
+.blog-section {
+  padding-right: 16px;
+  padding-left: 16px;
+  display:flex;
+  height: 100%;
+}
+
+
+.blog-section img {
+  width: 80%;
+  height:40%;
+  border-radius: 20px;
+  margin-left: 8%;
+  margin-top: 10%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+@keyframes scale-a-lil {
+  from {
+    scale: .8;
+  }
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .blog-section img {
+    animation: scale-a-lil linear both;
+    animation-timeline: view();
+    animation-range: 25vh 75vh;
+  }
+
+}
+@media screen and (min-width: 750px) {
+.blog-section-part {
+  display: flex;
+  
+  height: 100%;
+}
+  .blog-title {
+    font-size: 40px;
+    color: #a43dff;
+  }
+  .gallery {
+    height: 300px;
+    gap: 30px;
+  }
+  .Blog-image-title {
+    padding-top: 10%;
+  }
+  .blog-buttons button{
+    padding: 3%;
+    font-size: 16px;
+  }
+  .blog-buttons {
+    padding-top: 10%;
+    
+  }
+  .blog-section {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+  .blog-components {
+    position: absolute;
+    top: 110%;
+  }
+  .blog-section-part img {
+    width: 65%;
+    height: 60%;
+    
+  }
+  .blog-section-part{
+    
+    
+  }
+  .blog-section-part-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150%;
+    
+  }
+}
+

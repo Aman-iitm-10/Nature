@@ -1,0 +1,601 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #0F253D;
+  }
+  .main {
+
+    background-image: url('./images/beautiful-forest-panoramic-realistic-wanderlust-background-landscape-dark-trees-pine-in-mist-design-mystery-fog-in-park-concept-nature-beauty-tourism-web-banner-free-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+  }
+
+.text h1{
+
+
+  color: rgba(225,225,225, .01);
+  background-image: url("./images/stripp.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip:text;
+  animation: animat 30s ease-in-out infinite;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  position: absolute; top: 35%; transform: translateY(-45%);
+  right: 10%;
+
+  font-family: 'Merriweather', serif;
+}
+
+ 
+
+  .what {
+    padding-top: 10%;
+    padding-left: 10%;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+  }
+
+.arley {
+  position: absolute;
+  opacity: 0.99;
+  left: -5px;
+}
+.arley img {
+  width: 100px;
+  height: 150px;
+  }
+
+.what-text {
+  display: flex;
+  align-items: center;
+}
+
+  .what-image img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10%;
+  }
+  .ans {
+    padding-top: 15%;
+    padding-left: 20%;
+    color: #fff;
+    padding-right: 10%;
+    font-size: 2;
+  }
+
+.youtubeplayer {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* Animated Border */
+@keyframes animated-border {
+  0% {
+    border-color: #ff8080;
+  }
+  25% {
+    border-color: #80ff80;
+  }
+  50% {
+    border-color: #8080ff;
+  }
+  75% {
+    border-color: #ffff80;
+  }
+  100% {
+    border-color: #80ffff;
+  }
+}
+
+.youtubeplayer iframe {
+  border-radius: 24px;
+  height: 250px;
+  border: 2px solid #18e22f;
+  animation: animated-border 4s infinite;
+  overflow: visible;
+  max-width: 80%;
+}
+ 
+  .footer-content {
+    padding: 10px;
+    background: #2e2056;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .footer-section h3 {
+    color: #ad6767;
+    font-size: 24px;
+  }
+
+  .footer-section p {
+    color: #40bf7d;
+    font-size: 16px;
+    padding-bottom: 10%;
+  }
+
+
+.navbar {
+  overflow: hidden;
+padding-top: 2%;
+  display: flex;
+  justify-content: space-evenly; 
+  gap: 20px;
+  padding-left: 6%;
+  padding-right: 10%;
+  background: none;
+  
+}
+
+.navbar a {
+  background: none;
+  display: flex;
+  color: #266ca6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.navbar a:hover {
+  color : #0f253d;
+}
+
+
+.navbar .logo {
+  float: left;
+  background: none;
+  width: 20%;
+}
+.navbar .logo img {
+  width :35px;
+  height:35px;
+  overflow: visible;
+  display: flex;
+  justify-items: center;
+  vertical-align: center;
+  background: none;
+}
+.navbar .links {
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: none;
+  width: 60%;
+}
+
+#contact {
+  animation: tilt-n-move-shaking .5s infinite;
+}
+@keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(3px, 3px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-3px, 3px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+.thought {
+  padding : 5%;
+  padding-left: 10%;
+  color: #a1bbd2;
+  /*position: absolute;
+  bottom: 5%;*/
+}
+
+.blog-main-image {
+  height: 72vh;
+  text-align: center;
+}
+
+
+
+
+
+
+.blog-section-part {
+ 
+  }
+
+.octicon {
+    fill: #70a7ff;
+    filter: drop-shadow(0 0 5px #70a7ff) brightness(150%);
+}
+
+.lin {
+  width: 8%;
+  
+}
+.blog-section-part-left {
+  
+  background: linear-gradient(transparent, #38c83b 30%);
+  height: 85%;
+  width: 2px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  border-radius: var(--borderRadius-medium, 6px) !important;
+  
+}
+.blog-section-part-right {
+  padding-bottom: 10%;
+  
+}
+
+.blog-section-part-right-content {
+  padding: 5%;
+}
+
+.blog-section-part-right-content h1 {
+  font-size: 30px;
+  text-align:left;
+  margin: 0;
+  color: #e5cccc;
+}
+
+.blog-section-part-right-about {
+  color: #9c8b8b;
+}
+
+
+/*Bird*/
+
+  .con {
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 35rem;
+
+    background-position: center center;
+    padding: 2rem;
+  }
+.bird{
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg');
+    filter: invert(34%) sepia(55%) saturate(427%) hue-rotate(141deg) brightness(93%) contrast(91%);
+    background-size: auto 100%;
+    width: 88px;
+    height: 125px;
+    will-change: background-position;
+    animation-name: fly-cycle;
+    animation-timing-function: steps(10);
+    animation-iteration-count: infinite;
+}
+
+.bird-one{
+    animation-duration: 1s;
+    animation-delay: -0.5s;
+
+}
+.bird-two{
+    animation-duration: 0.9;
+    animation-delay: -0.75.s;
+
+}
+.bird-three{
+    animation-duration:1.25s;
+    animation-delay: -0.25s
+
+}
+.bird-four{
+    animation-duration: 1.1s;
+    animation-delay: -0.5s;
+}
+
+.bird-container {
+  position: absolute;
+  top: 10%;
+  left: -3%;
+  transform: scale(0) translateX(-10vw);
+  will-change: background-position;
+
+  animation-name: fly-right-one;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.bird-container-one{
+  animation-duration: 15s;
+  animation-delay: 0;
+}
+
+.bird-container-two{
+  animation-duration: 16s;
+  animation-delay: 1s;
+}
+
+.bird-container-three{
+  animation-duration: 14.6s;
+  animation-delay: 9.5s;
+}
+
+.bird-container-four {
+    animation-duration: 16s;
+    animation-delay: 10.25s;
+}
+/* @keyframes fly-cycle {
+    100%{
+        background-position: -3600px 0;
+    }
+} */
+@keyframes fly-cycle {
+
+  100% {
+    background-position: -900px 0;
+  }
+
+}
+
+@keyframes fly-right-one {
+
+  0% {
+    transform: scale(0.3) translateX(-10vw);
+  }
+
+  10% {
+    transform: translateY(2vh) translateX(10vw) scale(0.4);
+  }
+
+  20% {
+    transform: translateY(0vh) translateX(30vw) scale(0.5);
+  }
+
+  30% {
+    transform: translateY(4vh) translateX(50vw) scale(0.6);
+  }
+
+  40% {
+    transform: translateY(2vh) translateX(70vw) scale(0.6);
+  }
+
+  50% {
+    transform: translateY(0vh) translateX(90vw) scale(0.6);
+  }
+
+  60% {
+    transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+
+  100% {
+    transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+
+}
+
+@keyframes fly-right-two {
+
+  0% {
+    transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+  }
+
+  10% {
+    transform: translateY(0vh) translateX(10vw) scale(0.4);
+  }
+
+  20% {
+    transform: translateY(-4vh) translateX(30vw) scale(0.6);
+  }
+
+  30% {
+    transform: translateY(1vh) translateX(50vw) scale(0.45);
+  }
+
+  40% {
+    transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
+  }
+
+  50% {
+    transform: translateY(0vh) translateX(90vw) scale(0.45);
+  }
+
+  51% {
+    transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+
+  100% {
+    transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+
+}
+
+
+/*Bird*/
+
+
+
+.section{
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background: #3586ff;
+  overflow: hidden;
+}
+.section .air{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+  background-size: 1000px 100px
+}
+.section .air.air1{
+  animation: wave 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+.section .air.air2{
+  animation: wave2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 2px;
+}
+.section .air.air3{
+  animation: wave 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 5px;
+}
+.section .air.air4{
+  animation: wave2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 8px;
+}
+@keyframes wave{
+  0%{
+    background-position-x: 0px; 
+  }
+  100%{
+    background-position-x: 500px; 
+  }
+}
+@keyframes wave2{
+  0%{
+    background-position-x: 0px; 
+  }
+  100%{
+    background-position-x: -500px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 449.99px) {
+  /* Example of responsive styling for mobile screens */
+  .navbar {
+    justify-content: space-evenly; 
+
+  }
+  .nature h1 {
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 10%;
+  }
+
+  .navbar .logo {
+    width: 20px;
+    height: 20px;
+
+  }
+  .navbar .links {
+    font-size: 16px;
+  }
+  .navbar a {
+    padding : 5%;
+  }
+    /*.thought {
+      position: absolute;
+      bottom: 5%;
+    }*/
+  .what {
+    padding-top: 10%;
+  }
+}
+
+@media screen and (min-width: 700) and (max-width: 749.99px) {
+  /* Example of responsive styling for tablet screens */
+  .navbar {
+    justify-content: space-between; 
+  }
+  .nature h1 {
+    font-size: 35px;
+    padding: 15px;
+  }
+  .navbar .logo {
+    width: 20px;
+    height: 20px;
+    padding-left: 5%;
+  }
+  .navbar .links {
+    font-size: 20px;
+  }
+
+
+}
+
+@media screen and (min-width: 750px) {
+  /* Example of responsive styling for laptop screens */
+  
+  .navbar {
+    justify-content: space-between; 
+  }
+  .nature h1 {
+    font-size: 60px;
+    padding: 10px;
+  }
+  .text h1 {
+    opacity: 0.8;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0f253d;
+    letter-spacing: 3.8px;
+  }
+  .navbar .logo {
+    width: 20px;
+    height: 20px;
+    padding-left: 5%;
+  }
+  .navbar .links {
+    font-size: 20px;
+  }
+  .thought {
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+  }
+  .what {
+    font-size : 40px;
+    padding-top: 0;
+
+  }
+  .what-image img {
+    width: 65px;
+    height: 65px;
+    padding-left: 20%;
+  }
+  .arley img {
+    scale: 1.5;
+    left: 0px;
+  }
+  .ans {
+    padding-left: 15%;
+    font-size: 26px;
+  }
+  
+  .youtubeplayer {
+    
+    height: 100%;
+    
+  }
+  .youtubeplayer iframe{
+    max-width: 65%;
+    height: 500px;
+    
+  }
+}
