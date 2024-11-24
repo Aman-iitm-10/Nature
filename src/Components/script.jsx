@@ -3,13 +3,13 @@ import {useState} from 'react';
 //document.getElementsByClassName("main-blog-image")[0].style.width = innerWidth / 6;
 document.addEventListener("click", function(event) {
   //var [contactStatus, changeContactStatus] = useState(false);
-  if (event.target.id === "BODY") {
+  if (event.target.id == "BODY") {
     const bird = document.createElement("div");
     bird.classList.add("bird");
     document.querySelector(".bird-container").appendChild(bird);
     console.log('bod');
   }
-  if (event.target.id === "home") {
+  if (event.target.id == "home") {
     
     /*var visi = document.getElementById('container');
     var blogPag = document.getElementById('blogPag');
@@ -21,21 +21,20 @@ document.addEventListener("click", function(event) {
     //agr.style.display = 'none';*/
     hideAllExcept("home")
   }
-  else if (event.target.id === "contact") {
+  else if (event.target.id == "contact") {
     var visi = document.getElementById('container');
     /*contactStatus == false ? visi.style.display = 'block' : visi.style.display = 'none';
     contactStatus == false ? changeContactStatus(true) : changeContactStatus(false)
     
     changeContactStatus(true);*/
     visi.style.display = 'block';
-    
   }
-  else if (event.target.id === "close-cont") {
+  else if (event.target.id == "close-cont") {
     var visi = document.getElementById('container');
     visi.style.display = 'none';
     
   }
-  else if (event.target.id === "blog") {
+  else if (event.target.id == "blog") {
     /*var blogPag = document.getElementById('blogPag');
     var main = document.getElementById('main-cn');
     blogPag.style.display = 'block';
@@ -45,7 +44,7 @@ document.addEventListener("click", function(event) {
     console.log('blog');*/
     hideAllExcept("blog");
   }
-  else if (event.target.id === "blogopen"){
+  else if (event.target.id == "blogopen"){
     /*var agr = document.getElementbyId('agriculture');
     var blogPag = document.getElementById('blogPag');
     var main = document.getElementById('main-cn');
@@ -60,7 +59,7 @@ document.addEventListener("click", function(event) {
   else if (event.target.id == 'about'){
     hideAllExcept('about');
   }
-  else if (!((event.target.id === "contact")  || (event.target.id === "container"))) {
+  else if (!((event.target.id == "contact")  || (event.target.id === "container"))) {
     var visi = document.getElementById('container');
     visi.style.display = 'none';
   }
